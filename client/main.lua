@@ -119,7 +119,7 @@ AddEventHandler('esx_ambulancejob:useItem', function(itemName)
 				Citizen.Wait(0)
 				DisableAllControlActions(0)
 			end
-	
+
 			TriggerEvent('esx_ambulancejob:heal', 'big', true)
 			ESX.ShowNotification(_U('used_medikit'))
 		end)
@@ -298,7 +298,7 @@ function StartDeathTimer()
 			AddTextComponentString(text)
 			DrawText(0.5, 0.8)
 		end
-			
+
 		if bleedoutTimer < 1 and IsDead then
 			RemoveItemsAfterRPDeath()
 		end

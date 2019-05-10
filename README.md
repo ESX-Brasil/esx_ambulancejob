@@ -1,35 +1,35 @@
 # esx_ambulancejob
 
-## Requirements
+## Requisitos
 
-* Auto mode
-   - [esx_skin](https://github.com/ESX-Org/esx_skin)
-   - [esx_vehicleshop](https://github.com/ESX-Org/esx_vehicleshop)
+* Modo automático
+   - [esx_skin](https://github.com/ESX-Brasil/esx_skin)
+   - [esx_vehicleshop](https://github.com/ESX-Brasil/esx_vehicleshop)
 
-* Player management (boss actions)
-   - [esx_society](https://github.com/ESX-Org/esx_society)
+* Gerenciamento de jogadores (ações de chefe)
+   - [esx_society](https://github.com/ESX-Brasil/esx_society)
 
-## Download & Installation
+## Download e Instalação
 
-### Using [fvm](https://github.com/qlaffont/fvm-installer)
+### Usando [fvm](https://github.com/qlaffont/fvm-installer)
 ```
-fvm install --save --folder=esx esx-org/esx_ambulancejob
+fvm install --save --folder=esx esx-brasil/esx_ambulancejob
 ```
 
-### Using Git
+### Usando Git
 ```
 cd resources
-git clone https://github.com/ESX-Org/esx_ambulancejob [esx]/esx_ambulancejob
+git clone https://github.com/ESX-Brasil/esx_ambulancejob [esx]/esx_ambulancejob
 ```
 
-### Manually
-- Download https://github.com/ESX-Org/esx_ambulancejob/archive/master.zip
-- Put it in the `[esx]` directory
+### Manualmente
+- Download https://github.com/ESX-Brasil/esx_ambulancejob/archive/master.zip
+- Coloque no diretório `[esx]`
 
-## Installation
-- Import `esx_ambulancejob.sql` in your database
-- If you want player management you have to set `Config.EnablePlayerManagement` to `true` in `config.lua`
-- Add this in your `server.cfg`:
+## Instalação
+- Importar `esx_ambulancejob.sql` para seu banco de dados
+- Se você quiser um jogador como chefe aqui `Config.EnablePlayerManagement` de `false` para `true` em `config.lua`
+- Adicione isto ao seu `server.cfg`:
 
 ```
 start esx_ambulancejob
@@ -37,9 +37,9 @@ start esx_ambulancejob
 
 # Legal
 ### License
-esx_ambulancejob - ambulance script for fivem
+esx_ambulancejob - ESX for FiveM
 
-Copyright (C) 2015-2018 Jérémie N'gadi
+Copyright (C) 2015-2019 ESX-Brasil
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 

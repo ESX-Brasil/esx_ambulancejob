@@ -4,17 +4,17 @@ Config.DrawDistance               = 100.0
 
 Config.Marker                     = { type = 1, x = 1.5, y = 1.5, z = 0.5, r = 102, g = 0, b = 102, a = 100, rotate = false }
 
-Config.ReviveReward               = 700  -- revive reward, set to 0 if you don't want it enabled
-Config.AntiCombatLog              = true -- enable anti-combat logging?
-Config.LoadIpl                    = true -- disable if you're using fivem-ipl or other IPL loaders
+Config.ReviveReward               = 700  -- revive recompensa, defina como 0 se não quiser que seja ativado
+Config.AntiCombatLog              = true -- ativar logging anti-combate?
+Config.LoadIpl                    = true -- desativar se você estiver usando fivem-ipl ou outros carregadores de IPL
 
-Config.Locale                     = 'fr'
+Config.Locale                     = 'br'
 
 local second = 1000
 local minute = 60 * second
 
-Config.EarlyRespawnTimer          = 2 * minute  -- Time til respawn is available
-Config.BleedoutTimer              = 10 * minute -- Time til the player bleeds out
+Config.EarlyRespawnTimer          = 2 * minute  -- Tempo até o respawn está disponível
+Config.BleedoutTimer              = 10 * minute -- Tempo até o jogador sangrar
 
 Config.EnablePlayerManagement     = false
 
@@ -22,7 +22,7 @@ Config.RemoveWeaponsAfterRPDeath  = true
 Config.RemoveCashAfterRPDeath     = true
 Config.RemoveItemsAfterRPDeath    = true
 
--- Let the player pay for respawning early, only if he can afford it.
+-- Deixe o jogador pagar pelo respawning cedo, apenas se ele puder pagar.
 Config.EarlyRespawnFine           = false
 Config.EarlyRespawnFineAmount     = 5000
 

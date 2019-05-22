@@ -34,10 +34,13 @@ git clone https://github.com/ESX-Brasil/esx_ambulancejob [esx]/esx_ambulancejob
 ```
 start esx_ambulancejob
 ```
+# Discord
+
+[![Join ESX Brasil](https://discordapp.com/api/guilds/432980396070666250/embed.png?style=banner2)](https://discord.gg/8zGbh3T)
 
 # Legal
 ### License
-esx_ambulancejob - ESX for FiveM
+esx_ambulancejob - esx_ambulancejob for ESX
 
 Copyright (C) 2015-2019 ESX-Brasil
 

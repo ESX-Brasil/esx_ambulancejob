@@ -67,12 +67,12 @@ ESX.RegisterServerCallback('esx_ambulancejob:removeItemsAfterRPDeath', function(
 		for i=1, #xPlayer.loadout, 1 do
 			xPlayer.removeWeapon(xPlayer.loadout[i].name)
 		end
-	else -- save weapons & restore em' since spawnmanager removes them
+	else -- salvar armas e restaurar em spawnmanager as remove
 		for i=1, #xPlayer.loadout, 1 do
 			table.insert(playerLoadout, xPlayer.loadout[i])
 		end
 
-		-- give back wepaons after a couple of seconds
+		-- devolver armas depois de alguns segundos
 		Citizen.CreateThread(function()
 			Citizen.Wait(5000)
 			for i=1, #playerLoadout, 1 do
@@ -115,7 +115,7 @@ ESX.RegisterServerCallback('esx_ambulancejob:buyJobVehicle', function(source, cb
 	local xPlayer = ESX.GetPlayerFromId(source)
 	local price = getPriceFromHash(vehicleProps.model, xPlayer.job.grade_name, type)
 
-	-- vehicle model not found
+	-- modelo de veículo não encontrado
 	if price == 0 then
 		print(('esx_ambulancejob: %s attempted to exploit the shop! (invalid vehicle model)'):format(xPlayer.identifier))
 		cb(false)

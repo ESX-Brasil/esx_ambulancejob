@@ -22,7 +22,7 @@ Config.RemoveWeaponsAfterRPDeath  = true
 Config.RemoveCashAfterRPDeath     = true
 Config.RemoveItemsAfterRPDeath    = true
 
--- Deixe o jogador pagar pelo respawning cedo, apenas se ele puder pagar.
+-- Deixe o jogador pagar pelo respawning cedo, apenas se ele puder pagar..
 Config.EarlyRespawnFine           = false
 Config.EarlyRespawnFineAmount     = 5000
 

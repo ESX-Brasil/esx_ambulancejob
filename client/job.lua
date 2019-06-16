@@ -192,7 +192,7 @@ function FastTravel(coords, heading)
 	end)
 end
 
--- Draw markers & Marker logic
+-- Desenhe marcadores e lógica de marcadores
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
@@ -202,7 +202,7 @@ Citizen.CreateThread(function()
 
 		for hospitalNum,hospital in pairs(Config.Hospitals) do
 
-			-- Ambulance Actions
+			-- Ações de Ambulância
 			for k,v in ipairs(hospital.AmbulanceActions) do
 				local distance = GetDistanceBetweenCoords(playerCoords, v, true)
 
@@ -216,7 +216,7 @@ Citizen.CreateThread(function()
 				end
 			end
 
-			-- Pharmacies
+			-- Farmácias
 			for k,v in ipairs(hospital.Pharmacies) do
 				local distance = GetDistanceBetweenCoords(playerCoords, v, true)
 
@@ -230,7 +230,7 @@ Citizen.CreateThread(function()
 				end
 			end
 
-			-- Vehicle Spawners
+			-- Spawners de veículos
 			for k,v in ipairs(hospital.Vehicles) do
 				local distance = GetDistanceBetweenCoords(playerCoords, v.Spawner, true)
 
@@ -244,7 +244,7 @@ Citizen.CreateThread(function()
 				end
 			end
 
-			-- Helicopter Spawners
+			-- Spawners de Helicóptero
 			for k,v in ipairs(hospital.Helicopters) do
 				local distance = GetDistanceBetweenCoords(playerCoords, v.Spawner, true)
 
@@ -258,7 +258,7 @@ Citizen.CreateThread(function()
 				end
 			end
 
-			-- Fast Travels
+			-- Viagens Rápidas
 			for k,v in ipairs(hospital.FastTravels) do
 				local distance = GetDistanceBetweenCoords(playerCoords, v.From, true)
 
@@ -273,7 +273,7 @@ Citizen.CreateThread(function()
 				end
 			end
 
-			-- Fast Travels (Prompt)
+			-- Viagens Rápidas (Prompt)
 			for k,v in ipairs(hospital.FastTravelsPrompt) do
 				local distance = GetDistanceBetweenCoords(playerCoords, v.From, true)
 
@@ -289,7 +289,7 @@ Citizen.CreateThread(function()
 
 		end
 
-		-- Logic for exiting & entering markers
+		-- Lógica para sair e inserir marcadores
 		if isInMarker and not HasAlreadyEnteredMarker or (isInMarker and (LastHospital ~= currentHospital or LastPart ~= currentPart or LastPartNum ~= currentPartNum)) then
 
 			if
@@ -353,7 +353,7 @@ AddEventHandler('esx_ambulancejob:hasExitedMarker', function(hospital, part, par
 	CurrentAction = nil
 end)
 
--- Key Controls
+-- Controles Chave
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)

@@ -1,15 +1,15 @@
 USE `essentialmode`;
 
 INSERT INTO `addon_account` (name, label, shared) VALUES
-	('society_ambulance', 'Ambulância', 1)
+	('society_ambulance', 'Samu', 1)
 ;
 
 INSERT INTO `addon_inventory` (name, label, shared) VALUES
-	('society_ambulance', 'Ambulância', 1)
+	('society_ambulance', 'Samu', 1)
 ;
 
 INSERT INTO `datastore` (name, label, shared) VALUES
-	('society_ambulance', 'Ambulância', 1)
+	('society_ambulance', 'Samu', 1)
 ;
 
 INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_female) VALUES
@@ -20,7 +20,7 @@ INSERT INTO `job_grades` (job_name, grade, name, label, salary, skin_male, skin_
 ;
 
 INSERT INTO `jobs` (name, label) VALUES
-	('ambulance','Ambulância')
+	('ambulance','Samu')
 ;
 
 INSERT INTO `items` (name, label, `limit`) VALUES

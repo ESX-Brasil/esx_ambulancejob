@@ -1,9 +1,10 @@
 Locales['br'] = {
-  -- Cloakroom
+  -- Vestiário
   ['cloakroom'] = 'Vestiário',
   ['ems_clothes_civil'] = 'Roupa Normal',
   ['ems_clothes_ems'] = 'Entrar como Socorrista',
-  -- Vehicles
+
+  -- Veículos
   ['ambulance'] = 'ambulância',
   ['helicopter_prompt'] = 'pressione ~INPUT_CONTEXT~ para acessar o ~y~Ações de helicóptero~s~.',
   ['helicopter_buy'] = 'loja de helicóptero',
@@ -35,7 +36,8 @@ Locales['br'] = {
   ['vehicleshop_awaiting_model'] = 'o veículo está atualmente ~g~DOWNLOADING & LOADING~s~ por favor, espere',
   ['confirm_no'] = 'Não',
   ['confirm_yes'] = 'Sim',
-  -- Action Menu
+
+  -- Menu Ação
   ['hospital'] = 'Hôspital',
   ['revive_inprogress'] = 'Reanimação em andamento',
   ['revive_complete'] = 'você ressuscitou ~y~%s~s~',
@@ -46,8 +48,10 @@ Locales['br'] = {
   ['no_vehicles'] = 'Sem veículos nas proximidades',
   ['player_not_unconscious'] = 'Não está inconsciente',
   ['player_not_conscious'] = 'esse jogador não está consciente!',
-  -- Boss Menu
+
+  -- Menu chefe
   ['boss_actions'] = 'Menu Administração',
+
   -- Misc
   ['invalid_amount'] = '~r~Quantidade inválida',
   ['actions_prompt'] = 'pressione ~INPUT_CONTEXT~ access the ~y~Ambulance Actions~s~.',
@@ -60,6 +64,7 @@ Locales['br'] = {
   ['medikit'] = 'Seringa',
   ['bandage'] = 'Vendagem',
   ['max_item'] = 'você já carrega o suficiente sobre você.',
+
   -- F6 Menu
   ['ems_menu'] = 'Interação com cidadão',
   ['ems_menu_title'] = 'Ambulância - Interação com cidadão',
@@ -67,9 +72,11 @@ Locales['br'] = {
   ['ems_menu_putincar'] = 'Colocar no veiculo',
   ['ems_menu_small'] = 'Curar pequenas feridas',
   ['ems_menu_big'] = 'Tratando lesões graves',
-  -- Phone
+
+  -- telefone
   ['alert_ambulance'] = 'alert Ambulance',
-  -- Death
+
+  -- Morte
   ['respawn_available_in'] = 'respawn disponível em ~b~%s minutos %s segundos~s~',
   ['respawn_bleedout_in'] = 'você esta sangrandor por ~b~%s minutos %s segundos~s~\n',
   ['respawn_bleedout_prompt'] = 'pressione [~b~E~s~] para reaparecer',
@@ -79,8 +86,10 @@ Locales['br'] = {
   ['distress_sent'] = 'sinal de socorro foi enviado para as unidades disponíveis!',
   ['distress_message'] = 'atenção médica necessária: cidadão inconsciente!',
   ['combatlog_message'] = 'você foi forçado a renascer porque você já deixou o servidor quando está morto.',
+
   -- Revive
   ['revive_help'] = 'reviver um jogador',
+
   -- Item
   ['used_medikit'] = 'você usou 1x Seringa',
   ['used_bandage'] = 'você usou 1x Vendagem',

@@ -36,13 +36,13 @@ start esx_ambulancejob
 ```
 # Discord
 
-[![Join ESX Brasil](https://discordapp.com/api/guilds/432980396070666250/embed.png?style=banner2)](https://discord.gg/8zGbh3T)
+[![Join ESX Brasil](https://discordapp.com/api/guilds/693468263161659402/embed.png?style=banner2)](https://discord.gg/ZGXTsdN)
 
 # Legal
 ### License
 esx_ambulancejob - esx_ambulancejob for ESX
 
-Copyright (C) 2015-2019 ESX-Brasil
+Copyright (C) 2015-2020 ESX-Brasil
 
 This program Is free software: you can redistribute it And/Or modify it under the terms Of the GNU General Public License As published by the Free Software Foundation, either version 3 Of the License, Or (at your option) any later version.
 
